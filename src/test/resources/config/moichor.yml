@@ -1,0 +1,30 @@
+driver-details:
+  browserType: chrome
+  isHeadless: false
+  isIncognito: false
+  isDebugMode: false
+  shouldHighlightElement: true
+  highlightColor: yellow
+  os: windows
+  gridUrl: http://10.211.55.3:4444/wd/hub
+  isUsingGrid: false
+  listeners:
+    - ConsolePrinterListener
+    - HighlightListener
+  #    - LoggerListener
+  browserArguments:
+# example:
+#    - --incognito
+environment:
+  #url: https://portal.moichor.com/user/auth/login
+  url: https://AdminStage:AdminPass90253@stage-portal.moichor.com/
+  name: moichor
+  isActiveDirectoryUser: true
+  users:
+    - "root@moichor.com/test111!!!"
+    - "selenium@yopmail.com/Test@1234"
+timeout:
+  implicit: 80
+  explicit: 80
+  poolingInterval: 100
+  page: 80

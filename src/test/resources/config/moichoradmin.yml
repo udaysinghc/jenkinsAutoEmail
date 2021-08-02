@@ -1,0 +1,27 @@
+driver-details:
+  browserType: chrome
+  isHeadless: false
+  isIncognito: false
+  isDebugMode: false
+  shouldHighlightElement: true
+  highlightColor: yellow
+  os: windows
+  gridUrl: http://10.211.55.3:4444/wd/hub
+  isUsingGrid: false
+  listeners:
+    - ConsolePrinterListener
+    - HighlightListener
+  #    - LoggerListener
+  browserArguments:
+# example:
+#    - --incognito
+environment:
+  url: https://StageAdmin:AdminPass90253@stage.moichor.us/app/dashboard
+  isActiveDirectoryUser: true
+  users:
+    - "root@moichor.com/test111!!!"
+timeout:
+  implicit: 40
+  explicit: 40
+  poolingInterval: 100
+  page: 40
