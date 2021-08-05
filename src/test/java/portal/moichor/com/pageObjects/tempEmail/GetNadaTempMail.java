@@ -22,7 +22,7 @@ public class GetNadaTempMail extends BasePage {
 
   @FindBy(css = "table a[href*='http']")
   public WebElement linkURl;
-
+#
   @FindBy(id = "accept")
   WebElement cookiesPopUp;
 
