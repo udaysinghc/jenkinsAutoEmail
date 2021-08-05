@@ -4,7 +4,7 @@ Feature: Client page test
   Background:
     Given Log in as client root "root@moichor.com" user
     And Go to the Clients page
-
+#
 #  Scenario Outline: valid the error message for invalid field
 #    When enter the client firstName: "<firstName>", lastName: "<lastName>"
 #    Then validation message should appear for firstNameField: "<firstNameField>", lastNameFiled: "<lastNameFiled>"
