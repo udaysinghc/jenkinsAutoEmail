@@ -23,10 +23,10 @@ Feature: Client page test
 #      | Test                                | Hi am Uday, automate the test cases | value too long for type character varying(20) |
 #      | Hi am Uday, automate the test cases | Test                                | value too long for type character varying(20) |
 
-  Scenario:  add new Clients
-    When create client firstName "Client" lastname and email "moicher@yopmail.com"
-    And successfully added Clients toast message is displayed
-    Then added Clients is displayed
+#  Scenario:  add new Clients
+#    When create client firstName "Client" lastname and email "moicher@yopmail.com"
+#    And successfully added Clients toast message is displayed
+#    Then added Clients is displayed
 
 #
 #  Scenario Outline: search filter client
