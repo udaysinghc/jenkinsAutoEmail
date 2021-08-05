@@ -39,9 +39,7 @@ public class GetNadaTempMail extends BasePage {
         cookiesPopUp.click();
       }
     } catch (NoSuchElementException ignore) {
-
     }
-
     wait.waitForElementToBeVisible(userName);
     userName.clear();
     userName.sendKeys("selenium");
