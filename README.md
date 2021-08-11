@@ -75,6 +75,5 @@ but when it is set to false then cucumber is not generating report
 - user is not able to pass variables from commandline level anymore
 - log printer is not showing locators for findbyng: Looking for element: [unknown locator]
 
-
 ### Improvements:
 - add user list in yaml file instead of list of users in one string
