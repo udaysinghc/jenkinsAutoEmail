@@ -1,4 +1,8 @@
 version: 0.2
+files:
+  - source: /src
+    destination: /
+    overwrite: true
 phases:
   pre_build:
     commands:
