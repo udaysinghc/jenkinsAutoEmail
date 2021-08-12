@@ -1,0 +1,6 @@
+version: 0.2
+os: linux
+files:
+  - source: /src
+    destination: /var/www/html
+    overwrite: true
