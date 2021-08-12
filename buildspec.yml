@@ -1,9 +1,14 @@
 version: 0.2
-os: linux
-files:
-  - source: /src
-    destination: /var/www/html
-    overwrite: true
+phases:
+  pre_build:
+    commands:
+      - echo "Entered the pre-build phase"
+  build:
+    commands:
+      - echo "Entered the build phase"
+  post_build:
+    commands:
+      - echo "Entered the post-build phase"
 artifacts:
   files:
     - '**/*'
