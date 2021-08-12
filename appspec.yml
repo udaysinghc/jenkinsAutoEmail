@@ -1,5 +1,14 @@
 version: 0.0
-os: linux
-files:
-  - source: /src
-    destination: /
+phases:
+  pre_build:
+    commands:
+      - echo "Entered the pre-build phase"
+  build:
+    commands:
+      - echo "Entered the build phase"
+  post_build:
+    commands:
+      - echo "Entered the post-build phase"
+artifacts:
+  files:
+    - '**/*'

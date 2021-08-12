@@ -1,6 +1,6 @@
 version: 0.2
 files:
-  - source: /src
+  - source: /
     destination: /
     overwrite: true
 phases:
