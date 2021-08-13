@@ -5,7 +5,7 @@ driver-details:
   isDebugMode: false
   shouldHighlightElement: true
   highlightColor: yellow
-  os: linux
+  os: windows
   gridUrl: http://10.211.55.3:4444/wd/hub
   isUsingGrid: false
   listeners:
