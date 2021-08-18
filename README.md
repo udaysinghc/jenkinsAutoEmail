@@ -35,7 +35,7 @@
 - Rebuilding project with all changes, execute tests and generating report: maven clean install
 - Executing already compiled tests from target folder but without generating cucumber report: mvn test
 ## Overriding default configuration
-- executing tests that using configuration file from classpath:/resources/config/moicher.yml: mvn test -Dconfig.file=sparta-dev3
+- executing tests that using configuration file from classpath:/resources/config/moicher.yml: mvn test -Dconfig.file=moichor
 - executing tests that using different operating system: mvn install -Ddriver-details.os=windows
 - executing tests that using sparta-dev3.yml but override field inside this configuration file: mvn install -Dconfig.file=moicher, -Ddriver-details.os=windows
 - executing tests tagged by "@sanity" annotation: mvn install -Dcucumber.filter.tags=@sanity
